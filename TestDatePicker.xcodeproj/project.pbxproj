@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316981791A66703500483031 /* RMDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316981781A66703500483031 /* RMDatePickerController.m */; };
 		31DBCA601A65FDEE0060FA43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBCA5F1A65FDEE0060FA43 /* main.m */; };
 		31DBCA631A65FDEE0060FA43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBCA621A65FDEE0060FA43 /* AppDelegate.m */; };
 		31DBCA661A65FDEE0060FA43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBCA651A65FDEE0060FA43 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		31DBCA6B1A65FDEE0060FA43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DBCA6A1A65FDEE0060FA43 /* Images.xcassets */; };
 		31DBCA6E1A65FDEE0060FA43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31DBCA6C1A65FDEE0060FA43 /* LaunchScreen.xib */; };
 		31DBCA7A1A65FDEE0060FA43 /* TestDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBCA791A65FDEE0060FA43 /* TestDatePickerTests.m */; };
+		31DBCA861A65FE890060FA43 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBCA841A65FE890060FA43 /* TableViewCell.m */; };
+		31DBCA871A65FE890060FA43 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31DBCA851A65FE890060FA43 /* TableViewCell.xib */; };
+		31DBCA8A1A66009D0060FA43 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBCA891A66009D0060FA43 /* CellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		316981771A66703500483031 /* RMDatePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDatePickerController.h; sourceTree = "<group>"; };
+		316981781A66703500483031 /* RMDatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDatePickerController.m; sourceTree = "<group>"; };
 		31DBCA5A1A65FDEE0060FA43 /* TestDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DBCA5E1A65FDEE0060FA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31DBCA5F1A65FDEE0060FA43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,11 @@
 		31DBCA731A65FDEE0060FA43 /* TestDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DBCA781A65FDEE0060FA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31DBCA791A65FDEE0060FA43 /* TestDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDatePickerTests.m; sourceTree = "<group>"; };
+		31DBCA831A65FE890060FA43 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		31DBCA841A65FE890060FA43 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		31DBCA851A65FE890060FA43 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		31DBCA881A66009D0060FA43 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		31DBCA891A66009D0060FA43 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,8 @@
 		31DBCA5C1A65FDEE0060FA43 /* TestDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				316981771A66703500483031 /* RMDatePickerController.h */,
+				316981781A66703500483031 /* RMDatePickerController.m */,
 				31DBCA611A65FDEE0060FA43 /* AppDelegate.h */,
 				31DBCA621A65FDEE0060FA43 /* AppDelegate.m */,
 				31DBCA641A65FDEE0060FA43 /* ViewController.h */,
@@ -89,6 +102,11 @@
 				31DBCA6A1A65FDEE0060FA43 /* Images.xcassets */,
 				31DBCA6C1A65FDEE0060FA43 /* LaunchScreen.xib */,
 				31DBCA5D1A65FDEE0060FA43 /* Supporting Files */,
+				31DBCA831A65FE890060FA43 /* TableViewCell.h */,
+				31DBCA841A65FE890060FA43 /* TableViewCell.m */,
+				31DBCA851A65FE890060FA43 /* TableViewCell.xib */,
+				31DBCA881A66009D0060FA43 /* CellModel.h */,
+				31DBCA891A66009D0060FA43 /* CellModel.m */,
 			);
 			path = TestDatePicker;
 			sourceTree = "<group>";
@@ -200,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31DBCA691A65FDEE0060FA43 /* Main.storyboard in Resources */,
+				31DBCA871A65FE890060FA43 /* TableViewCell.xib in Resources */,
 				31DBCA6E1A65FDEE0060FA43 /* LaunchScreen.xib in Resources */,
 				31DBCA6B1A65FDEE0060FA43 /* Images.xcassets in Resources */,
 			);
@@ -220,7 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				31DBCA661A65FDEE0060FA43 /* ViewController.m in Sources */,
+				31DBCA861A65FE890060FA43 /* TableViewCell.m in Sources */,
+				316981791A66703500483031 /* RMDatePickerController.m in Sources */,
 				31DBCA631A65FDEE0060FA43 /* AppDelegate.m in Sources */,
+				31DBCA8A1A66009D0060FA43 /* CellModel.m in Sources */,
 				31DBCA601A65FDEE0060FA43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +436,7 @@
 				31DBCA7F1A65FDEE0060FA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31DBCA801A65FDEE0060FA43 /* Build configuration list for PBXNativeTarget "TestDatePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +445,7 @@
 				31DBCA821A65FDEE0060FA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
